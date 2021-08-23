@@ -1,3 +1,7 @@
+h2{
+    font-family: 'Anton', sans-serif; 
+} /* CAMBIE FUENTE  */
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -10,7 +14,11 @@ h2{
 }
 
 p{
+    text-align: justify;
     font-size: 20px;
+    columns: 3;
+    column-gap: 30px;
+    column-rule: 5px solid green ;
 }
 
 div{
@@ -18,9 +26,18 @@ color: green;
 }
 
 .contacto{
+    margin-top: 5ch; /* CAMBIE SEPARACION */
+    width: 400px; /*AGREGUE CUBO*/
+    height: 250PX; /*AGREGUE CUBO*/
+    background-color: green; /*COLOR CUBO*/
     color: black;
     text-transform: uppercase;
     font-weight: bolder;
+    margin-bottom: 40px; /*SEPARACION DE ITEMS*/
+    border: 5px solid red; /*agregue bordes*/
+    margin-left: 55ch;
+    border-radius: 0px 20px; /*agregue bordes redondeandos*/
+    padding: 10px;
 }
 
 a{
@@ -28,6 +45,7 @@ a{
     color: red;
     font-weight: bolder;
     background-color: green;
+    box-shadow: 10px 10px 5px red;
 }
 
 #hipervinculo:hover{
@@ -35,4 +53,5 @@ a{
     color: green;
     font-weight: bolder;
     background-color: red;
+    box-shadow: 10px 10px 5px green;
 }
